@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; URL='https://skincentric.us'" />
     <title>Redirecting...</title>
+    <script type="text/javascript">
+        // Only redirect if the current page is the root
+        if (window.location.pathname === "/") {
+            window.location.replace("https://skincentric.us");
+        }
+    </script>
 </head>
 <body>
     <p>If you are not redirected automatically, follow this <a href="https://skincentric.us">link</a>.</p>
